@@ -1,0 +1,79 @@
+body{
+    background-image: linear-gradient(to right ,lightgreen, lightgreen);
+}
+.container{
+    width:100%;
+    height:680px;
+    padding:3% 5% 5% 5%;
+    display:flex;
+    flex-direction: row;
+}
+.left{
+    width:40%;
+    height:100%;
+    background-color: pink;
+}
+.right{
+    margin-left: 5%;
+    width:60%;
+    height:auto;
+    background-color: lightblue;
+}
+#input-section p{
+    font-size:20px;
+    width:100%;
+}
+#input-section{
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+  }
+#data-screen h4{
+    font-size: 12px;
+  }
+#data-screen{
+    background: #fff;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 10px;
+    text-align: left;
+    margin: 3% auto 0;
+    width: 90%;
+  }
+.img-dog{
+    background: #fff;
+    width:70%;
+    height:300px;
+    margin-top: 15%;
+    margin-left: 15%;
+  }
+  .image-section{
+      margin-left: 3%;
+  }
+ .breeds{
+     width:300px;
+ }
+ .name-dog{
+     width:70%;
+     height:20%;
+     margin-left:15%;
+     margin-top:10%;
+     background-color: white;
+ }
+@media screen and (max-width:920px) {
+    .breeds{
+        width:100px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .right{
+        margin-left:0;
+        margin-top:5px;
+        width:100%;
+    }
+    .left{
+        width:100%;
+    }
+}
